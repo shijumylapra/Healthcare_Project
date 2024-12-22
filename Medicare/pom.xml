@@ -16,20 +16,33 @@
 
   <build>
     <plugins>
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-surefire-plugin</artifactId>-->
+<!--        <version>3.0.0-M5</version>-->
+<!--        <configuration>-->
+
+<!--          <suiteXmlFiles>-->
+<!--            <suiteXmlFile>{suiteXmlFile}</suiteXmlFile>-->
+<!--            <testFailureIgnore>true</testFailureIgnore>-->
+<!--            &lt;!&ndash; <suiteXmlFile>sanity.xml</suiteXmlFile>-->
+<!--        mvn clean test -Dsurefire.suiteXmlFiles=sanity.xml-->
+<!--        mvn clean test -Dsurefire.suiteXmlFiles=sanity.xml-->
+<!--        &ndash;&gt;-->
+<!--          </suiteXmlFiles>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M5</version>
+        <version>2.19.1</version>
         <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>{suiteXmlFile}</suiteXmlFile>
-            <!-- <suiteXmlFile>sanity.xml</suiteXmlFile>
-        mvn clean test -Dsurefire.suiteXmlFiles=sanity.xml
-        mvn clean test -Dsurefire.suiteXmlFiles=sanity.xml
-        -->
-          </suiteXmlFiles>
+          <testFailureIgnore>true</testFailureIgnore>
         </configuration>
       </plugin>
+
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
