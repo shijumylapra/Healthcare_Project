@@ -77,59 +77,6 @@ public class SignUP
         Login.click();
     }
 
-
-
-//        LoginButton.click();
-//        Uname.sendKeys("sd@gmail.com");
-//        Pass.sendKeys("Sddhiju123");
-//
-//
-//        loginbtn.click();
-//        Assert.assertEquals(validText.getText(), "Username and Password is invalid!");
-//        System.out.println(validText.getText());
-//        this.run(5000);
-//        Uname.sendKeys("sa@gmail.com");
-//        Pass.sendKeys("Shiju123");
-//        loginbtn.click();
-//        this.run(5000);
-//        // linkText.click();
-//        productSelection.click();
-//        this.run(3000);
-//        addCart.click();
-//        this.run(3000);
-//        validate.click();
-//        this.run(3000);
-//        homePage.click();
-//        this.run(3000);
-//        allProducts.click();
-//        this.run(3000);
-//        showProduct1.click();
-//        this.run(3000);
-//        addCart1.click();
-//        this.run(3000);
-//        validate.click();
-//
-//        this.run(3000);
-//
-//        addressLineOne.sendKeys("1105 Research Center Drive Atlanta SW,");
-//        addressLineTwo.sendKeys("1105 Research Center Drive");
-//        city.sendKeys("Atlanta");
-//        postalCode.sendKeys("30316");
-//        state.sendKeys("Georgia");
-//        country.sendKeys("United States");
-//
-//        this.run(3000);
-//        submit.click();
-//
-//        creditCard.sendKeys("5655-8958-0024");
-//        this.run(1000);
-//        EMonth.sendKeys("02");
-//        this.run(1000);
-//        EYear.sendKeys("2027");
-//        this.run(1000);
-//        CCode.sendKeys("051");
-//        this.run(3000);
-//        Pay.click();
 void run(int time) {
     try {
         Thread.sleep(time);
