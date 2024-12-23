@@ -1,2 +1,2 @@
 # Healthcare_Project
-project requires end-to-end development of a comprehensive QA and test environment for a healthcare website
+Develop a comprehensive QA and testing environment for a healthcare website, including test plans, cases, and scripts, and implement tools to automate testing, ensuring website functionality, reliability, security, and usability meet required standards
